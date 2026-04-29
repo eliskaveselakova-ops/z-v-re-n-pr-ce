@@ -1,0 +1,84 @@
+html {
+    font-size: 12pt;
+    font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.demo-wrap {
+    padding: 16px;
+}
+
+h2, div {
+    background: red;
+}
+
+a, button, span, strong {
+    background: lightblue;
+}
+
+.d1, .s1 {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 12px;
+    padding: 10px;
+    background: pink;
+    width: 180px;
+    height: 80px;
+    margin-top: 80px;
+}
+.radius-box {
+    background: steelblue;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    display:  grid;
+    place-items: center;
+    border-radius: 100px;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.justify{
+    text-align: justify;
+}
+.link {
+    text-decoration: none;
+    background: none;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
+.center-box {
+    width: 50%;
+    height: 300px;
+    background: steelblue;
+    margin: 0 auto;
+    text-align: center;
+}

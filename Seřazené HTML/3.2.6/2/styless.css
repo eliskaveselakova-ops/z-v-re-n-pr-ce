@@ -1,0 +1,29 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color:rgb(6, 124, 35) ;
+}
+input[type="email"] {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+}
+input[type="email"]:focus {
+    border-color: rgb(88, 44, 192);
+    background-color: lightgreen;
+}
+input[type="email"]:invalid {
+    border-color: rgb(9, 120, 194);
+    background-color: rgb(16, 218, 16);
+}
+input[type="email"]:valid {
+    border-color:rgb(172, 7, 89);
+    background-color: rgb(230, 123, 206);
+}
+ 
